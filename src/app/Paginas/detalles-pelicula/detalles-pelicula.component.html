@@ -1,0 +1,37 @@
+<body>
+   <div class="wrapper">
+      <form [formGroup]="registerForm">
+         <p class="text-danger">{{ActError}}</p>
+         <h1>Detalles de la Pelicula</h1>
+
+         <div class="label-box">
+            <label><b>Clave ID: </b>{{pelicula.id}}</label>
+         </div>
+
+         <div class="label-box">
+            <label><b>Nombre: </b>{{pelicula.nombre}}</label>
+         </div>
+
+         <div class="label-box">
+            <label><b>Genero: </b>{{pelicula.genero}}</label>
+         </div>
+
+         <div class="label-box">
+            <label><b>Año: </b>{{pelicula.anio}}</label>
+         </div>
+
+         <div class="label-box">
+            <label><b>Multimedia: </b>{{pelicula.multimedia}}</label>
+         </div>
+
+         <div class="box">
+            <label><b>Dir Portada: </b>{{pelicula.portada}}</label>
+         </div>
+
+         <div class="box">
+            <label><b>Sinopsis: </b>  </label>
+        </div>
+
+      </form>
+   </div>
+</body>
